@@ -1,0 +1,6 @@
+01. memiliki perbedaan guna, tidak menggunakan bahasa pemrograman yang sama kecuali javascript. static akan menunjukan file sesuai di server, dynamic akan mengubah2 file sebelum di tunjukan ke client
+02. static http request ke server dan akan di kembalikan dari server langsung ke client. dynamic akan melalui web app untuk menyesuaikan request ke database lalu menunjukan data html ke web app untuk di tunjukan ke web server 
+03. data analysis, notifikasi ke email/sms, menggunakan session storage sesuai kebutuhan, memberikan authorization di beberapa content, customer experience yang khusus untuk per customer
+04. standard untuk memudahkan client dan server berkomunikasi
+05. GET = mengambil data, HEAD = sama seperti get tapi tanpa menampilkan body, POST = menambahkan data, PUT = mengganti semua data sesuai dengan payload, DELETE = menghapus data, CONNECT = membuat jembatan ke server sesuai yang di inginkan, OPTIONS = menunjukan pilihan komunikasi yang ada, TRACE = melacak data, PATCH = mengubah data sesuai keinginan
+06. memberi informasi ke client status http request, apakah berhasil / gagal di client, atau gagal di server
